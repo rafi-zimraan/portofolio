@@ -34,7 +34,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="#"
+            href="https://www.facebook.com/raffi.zimraan"
             className="footer__social-link"
             target="_blank"
             data-aos="fade-up"

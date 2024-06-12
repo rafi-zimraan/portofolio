@@ -24,7 +24,7 @@ const Social = () => {
         <i className="uil uil-github"></i>
       </a>
       <a
-        href="#"
+        href="https://x.com/Rafizimraan"
         className="home__social-icon"
         target="_blank"
         data-aos="fade-up"

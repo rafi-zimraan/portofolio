@@ -14,7 +14,15 @@ const WorkItems = ({ item, index }) => {
       <div className="work__padding">
         <div className="work__icon-parent">
           {item.icon.map((icon, index) => {
-            return <img className="work__icon" src={icon} alt="" key={index} />;
+            return (
+              <img
+                className="work__icon"
+                src={icon}
+                alt=""
+                loading="lazy"
+                key={index}
+              />
+            );
           })}
         </div>
         <h3 className="work__title">{item.title}</h3>

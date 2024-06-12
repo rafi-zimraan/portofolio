@@ -165,7 +165,7 @@ img {
   background-color: var(--title-color-dark);
   box-shadow: var(--box-shadow);
   scale: 1.02;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out !important;
 }
 .button__icon {
   margin-left: var(--mb-0-5);
@@ -805,7 +805,6 @@ img {
   grid-template-columns: repeat(2, 350px);
   column-gap: 1.8rem;
   justify-content: center;
-  transition: all 0.2s ease-in-out;
 }
 
 .skills__content {
@@ -813,6 +812,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 2rem;
   border-radius: 1rem;
+  transition: all 0.2s ease-in-out !important;
 }
 
 .skills__content:hover {
@@ -890,16 +890,16 @@ img {
 .work__card {
   background-color: var(--containter-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* padding: 1.25rem; */
+  padding: 1.25rem;
   border-radius: 0.5rem;
   width: 295px;
   height: min-content;
-  transition: all 0.2s ease-in-out;
 }
 
 .work__card:hover {
   box-shadow: var(--box-shadow);
   scale: 1.02;
+  transition: all 0.2s ease-in-out !important;
 }
 
 .work__img {

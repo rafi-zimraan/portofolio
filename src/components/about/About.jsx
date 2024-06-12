@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import AboutImg from "../../assets/Rafi.png";
 import Info from "./Info";
-import CV from "../../assets/Abdurrahman Haekal Rifany Resume.pdf";
+import CV from "../../assets/Rafi Zimraan Arjuna Wijaya Resume.pdf";
 
 const About = () => {
   return (
@@ -46,6 +46,7 @@ const About = () => {
             opportunities to grow.
           </p>
           <a
+            target="_blank"
             href={CV}
             className="button button--flex"
             data-aos="fade-up"

@@ -59,10 +59,12 @@ const Contact = () => {
               <i className="bx bx-envelope contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">haekalrfny@gmail.com</span>
+              <span className="contact__card-data">
+                raffizimraan27@gmail.com
+              </span>
 
               <a
-                href="mailto:haekalrfny@gmail.com.com"
+                href="mailto:raffizimraan27@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}

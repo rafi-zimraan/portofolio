@@ -1,11 +1,17 @@
 import React from "react";
 import "../../App.css";
+import { ReactTyped } from "react-typed";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title" data-aos="fade-up" data-aos-duration="1000">
-        I'm Rafi
+        <ReactTyped
+          strings={["I'm Rafi"]}
+          typeSpeed={100}
+          backSpeed={100}
+          loop
+        />
         <svg
           width="36"
           height="36"

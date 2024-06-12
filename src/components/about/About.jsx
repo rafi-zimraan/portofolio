@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import AboutImg from "../../assets/Rafi.png";
+import AboutImg from "../../assets/Rafi 2.jpg";
 import Info from "./Info";
 import CV from "../../assets/Rafi Zimraan Arjuna Wijaya Resume.pdf";
 

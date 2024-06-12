@@ -40,6 +40,7 @@ import Work4 from "../../assets/Mobile App/app 4.jpg";
 import Work5 from "../../assets/Mobile App/app 5.jpg";
 import Work6 from "../../assets/Mobile App/app 6.jpg";
 import Work7 from "../../assets/Mobile App/app 7.jpg";
+import Work8 from "../../assets/Mobile App/app 8.jpg";
 
 // design
 import desain1 from "../../assets/Design/Genksi App.jpg";
@@ -53,7 +54,7 @@ export const projectsData = [
     image: Work1,
     title: "Muslim Indonesia",
     category: "Mobile App",
-    link: "#",
+    link: "https://appetize.io/embed/mbgrmnuyq4qirpd7g2rnw5ptqq",
     icon: [react, javascript],
   },
   {
@@ -61,7 +62,7 @@ export const projectsData = [
     image: Work2,
     title: "Woconan",
     category: "Mobile App",
-    link: "#",
+    link: "https://appetize.io/embed/jyqbaztrhrjayfekz3m6lr3pe4",
     icon: [react, javascript],
   },
   {
@@ -69,13 +70,13 @@ export const projectsData = [
     image: Work3,
     title: "Al - Quran",
     category: "Mobile App",
-    link: "#",
+    link: "https://appetize.io/embed/",
     icon: [react, javascript],
   },
   {
     id: 4,
     image: Work4,
-    title: "Aplikasi Wisata",
+    title: "Aplikasi Service Mobil",
     category: "Mobile App",
     link: "https://appetize.io/embed/xx3y2rrqcoffvqdfpgptcdglba",
     icon: [dart, flutter],
@@ -85,7 +86,7 @@ export const projectsData = [
     image: Work5,
     title: "Payment State Management",
     category: "Mobile App",
-    link: "#",
+    link: "https://appetize.io/embed/gqqoyd54nyvvrmemvh3zk5nltq",
     icon: [dart, flutter],
   },
   {
@@ -101,11 +102,19 @@ export const projectsData = [
     image: Work7,
     title: "Aplikasi Sayur",
     category: "Mobile App",
-    link: "#",
+    link: "https://appetize.io/embed/dqe4k7qxztzkug6jb63uydv5e4",
     icon: [dart, flutter],
   },
   {
     id: 8,
+    image: Work8,
+    title: "Aplikasi Wonderfull Indonesia",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/p7wsdpu4gq7gzig2rag7hwtqiu",
+    icon: [dart, flutter],
+  },
+  {
+    id: 8.1,
     image: certificate1,
     title: "Membuat Aplikasi Flutter untuk Pemula",
     category: "Certificate",

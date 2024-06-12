@@ -6,19 +6,25 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
-    Aos.refresh();
+    emailjs.init("ZFq21k4pA450jZTVs");
   }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_ro8m2sy",
-      "template_fnb1thk",
-      form.current,
-      "BsqqWtRohyW2JgDoz"
-    );
+    const formData = new FormData(form.current);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    emailjs.send("service_58o5cdn", "template_woqda1h", {
+      name: name,
+      to_name: "Rafi Zimraan",
+      from_name: email,
+      message: message,
+    });
+
     e.target.reset();
   };
 
@@ -165,13 +171,13 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              <label className="contact__form-tag">Comment</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
-                name="comment"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your comment"
+                placeholder="Write your Message"
               ></textarea>
             </div>
 

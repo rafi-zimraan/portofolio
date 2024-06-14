@@ -41,6 +41,7 @@ import Work5 from "../../assets/Mobile App/app 5.jpg";
 import Work6 from "../../assets/Mobile App/app 6.jpg";
 import Work7 from "../../assets/Mobile App/app 7.jpg";
 import Work8 from "../../assets/Mobile App/app 8.jpg";
+import Work9 from "../../assets/Mobile App/app 9.jpg";
 
 // design
 import desain1 from "../../assets/Design/Genksi App.jpg";
@@ -210,6 +211,14 @@ export const projectsData = [
     category: "Design",
     link: "https://www.figma.com/design/0k9JTDemHaMab0qcXBhFnK/Muslim-Indonesia?node-id=469-623&t=2b7kZYBOHQc94fCU-1",
     icon: [figma],
+  },
+  {
+    id: 18,
+    image: Work9,
+    title: "Aplikasi Kostqu",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/cap732groz6yf3y2tirm6ku2ju",
+    icon: [react, javascript],
   },
 ];
 

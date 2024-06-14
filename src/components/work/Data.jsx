@@ -115,15 +115,24 @@ export const projectsData = [
     icon: [dart, flutter],
   },
   {
-    id: 8.1,
+    id: 9,
+    image: Work9,
+    title: "Aplikasi Kostqu",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/cap732groz6yf3y2tirm6ku2ju",
+    icon: [react, javascript],
+  },
+  {
+    id: 10,
     image: certificate1,
     title: "Membuat Aplikasi Flutter untuk Pemula",
     category: "Certificate",
     link: pdf1,
     icon: [dicoding],
   },
+
   {
-    id: 9,
+    id: 11,
     image: certificate2,
     title: "Belajar Prinsip Pemrograman Solid",
     category: "Certificate",
@@ -131,7 +140,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 10,
+    id: 12,
     image: certificate3,
     title: "Memulai Pemrograman dengan Dart",
     category: "Certificate",
@@ -139,7 +148,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 11,
+    id: 13,
     image: certificate4,
     title:
       "Networking dan Cybersecurity dengan tema TechNetworkers Unite Reinforcing Security and Connectivity yang diselenggarakan oleh National Networking Competition 2.0",
@@ -148,7 +157,7 @@ export const projectsData = [
     icon: [ugm, biznet, idnetworkers],
   },
   {
-    id: 12,
+    id: 14,
     image: certificate5,
     title: "Pemrograman Dart Dasar",
     category: "Certificate",
@@ -156,7 +165,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 13,
+    id: 15,
     image: certificate6,
     title: "Start Your Career with Mikrotik",
     category: "Certificate",
@@ -164,7 +173,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 14,
+    id: 16,
     image: certificate7,
     title: "Successfull Carrer Planning for 2 roles",
     category: "Certificate",
@@ -172,7 +181,7 @@ export const projectsData = [
     icon: [smartpath],
   },
   {
-    id: 15,
+    id: 17,
     image: certificate8,
     title:
       "Tech Talk #1 - The Future of Indonesia's Tech Industries How to Develop Advanced Tech Companies",
@@ -181,7 +190,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 14,
+    id: 18,
     image: desain1,
     title: "Genksi Application",
     category: "Design",
@@ -189,7 +198,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 15,
+    id: 19,
     image: desain2,
     title: "Perizinan Santri Application",
     category: "Design",
@@ -197,7 +206,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 16,
+    id: 20,
     image: desain3,
     title: "Pulsa Application",
     category: "Design",
@@ -205,20 +214,12 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 17,
+    id: 21,
     image: desain4,
     title: "Muslim Indonesia Application",
     category: "Design",
     link: "https://www.figma.com/design/0k9JTDemHaMab0qcXBhFnK/Muslim-Indonesia?node-id=469-623&t=2b7kZYBOHQc94fCU-1",
     icon: [figma],
-  },
-  {
-    id: 18,
-    image: Work9,
-    title: "Aplikasi Kostqu",
-    category: "Mobile App",
-    link: "https://appetize.io/embed/cap732groz6yf3y2tirm6ku2ju",
-    icon: [react, javascript],
   },
 ];
 

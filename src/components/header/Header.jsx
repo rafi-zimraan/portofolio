@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../App.css";
-import Toogle from "../toogle";
+import Toogle from "../Toogle";
 
 const Header = () => {
   window.addEventListener("scroll", function () {

@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../App.css";
-import { useState } from "react";
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -65,6 +64,23 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">AmalSholeh.com</h3>
+                <span className="qualification__subtitle">
+                  Bandung - Magang
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024 - 2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div></div>
 
               <div>
@@ -82,6 +98,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">ID - Networkers</h3>

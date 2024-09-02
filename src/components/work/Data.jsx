@@ -18,22 +18,20 @@ import certificate7 from "../../assets/Certificate/Certificate7.png";
 import certificate8 from "../../assets/Certificate/Certificate8.png";
 
 // icon stack
-import html from "../../assets/Icon/html.png";
-import css from "../../assets/Icon/css.png";
-import javascript from "../../assets/Icon/javascript.png";
-import react from "../../assets/Icon/react.png";
-import figma from "../../assets/Icon/figma.png";
-import canva from "../../assets/Icon/canva.png";
+import biznet from "../../assets/Icon/Biznet Gio.png";
 import dicoding from "../../assets/Icon/dicoding.jpg";
-import smartpath from "../../assets/Icon/Smartpath.png";
-import ugm from "../../assets/Icon/UGM.png";
+import figma from "../../assets/Icon/figma.png";
 import dart from "../../assets/Icon/icons8-dart-1080.png";
 import flutter from "../../assets/Icon/icons8-flutter-1080.png";
 import idnetworkers from "../../assets/Icon/ID-Networkers.png";
-import biznet from "../../assets/Icon/Biznet Gio.png";
+import javascript from "../../assets/Icon/javascript.png";
+import react from "../../assets/Icon/react.png";
+import smartpath from "../../assets/Icon/Smartpath.png";
+import ugm from "../../assets/Icon/UGM.png";
 
 // Work
 import Work1 from "../../assets/Mobile App/app 1.jpg";
+import Work10 from "../../assets/Mobile App/app 10.png";
 import Work2 from "../../assets/Mobile App/app 2.jpg";
 import Work3 from "../../assets/Mobile App/app 3.jpg";
 import Work4 from "../../assets/Mobile App/app 4.jpg";
@@ -124,15 +122,22 @@ export const projectsData = [
   },
   {
     id: 10,
+    image: Work10,
+    title: "Aplikasi Amalan",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/b_fje26nx3rx764q35vd54bbaqae",
+    icon: [dart, flutter],
+  },
+  {
+    id: 11,
     image: certificate1,
     title: "Membuat Aplikasi Flutter untuk Pemula",
     category: "Certificate",
     link: pdf1,
     icon: [dicoding],
   },
-
   {
-    id: 11,
+    id: 12,
     image: certificate2,
     title: "Belajar Prinsip Pemrograman Solid",
     category: "Certificate",
@@ -140,7 +145,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 12,
+    id: 13,
     image: certificate3,
     title: "Memulai Pemrograman dengan Dart",
     category: "Certificate",
@@ -148,7 +153,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 13,
+    id: 14,
     image: certificate4,
     title:
       "Networking dan Cybersecurity dengan tema TechNetworkers Unite Reinforcing Security and Connectivity yang diselenggarakan oleh National Networking Competition 2.0",
@@ -157,7 +162,7 @@ export const projectsData = [
     icon: [ugm, biznet, idnetworkers],
   },
   {
-    id: 14,
+    id: 15,
     image: certificate5,
     title: "Pemrograman Dart Dasar",
     category: "Certificate",
@@ -165,7 +170,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 15,
+    id: 16,
     image: certificate6,
     title: "Start Your Career with Mikrotik",
     category: "Certificate",
@@ -173,7 +178,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 16,
+    id: 17,
     image: certificate7,
     title: "Successfull Carrer Planning for 2 roles",
     category: "Certificate",
@@ -181,7 +186,7 @@ export const projectsData = [
     icon: [smartpath],
   },
   {
-    id: 17,
+    id: 18,
     image: certificate8,
     title:
       "Tech Talk #1 - The Future of Indonesia's Tech Industries How to Develop Advanced Tech Companies",
@@ -190,7 +195,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 18,
+    id: 19,
     image: desain1,
     title: "Genksi Application",
     category: "Design",
@@ -198,7 +203,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 19,
+    id: 20,
     image: desain2,
     title: "Perizinan Santri Application",
     category: "Design",
@@ -206,7 +211,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 20,
+    id: 0,
     image: desain3,
     title: "Pulsa Application",
     category: "Design",
@@ -214,7 +219,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 21,
+    id: 22,
     image: desain4,
     title: "Muslim Indonesia Application",
     category: "Design",

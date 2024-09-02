@@ -1,6 +1,6 @@
 import React from "react";
-import "../../App.css";
 import { ReactTyped } from "react-typed";
+import "../../App.css";
 
 const Data = () => {
   return (
@@ -76,8 +76,11 @@ const Data = () => {
         data-aos-duration="1000"
         data-aos-delay="100"
       >
-        a mobile app developer proudly representing Indonesia. I have an immense
-        passion for my profession.
+        A mobile developer software engineer who aims to solve problems with
+        technology. Eager to learn new programming languages and software
+        architectures. My goal is to help organizations to have better software
+        quality and performance through writing clean code, well usage of design
+        patterns, and future-proof architecture..
       </p>
       <a
         href="#contact"

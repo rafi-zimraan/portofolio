@@ -28,10 +28,11 @@ import javascript from "../../assets/Icon/javascript.png";
 import react from "../../assets/Icon/react.png";
 import smartpath from "../../assets/Icon/Smartpath.png";
 import ugm from "../../assets/Icon/UGM.png";
+import laravel from "../../assets/Icon/laravel.png";
+import php from "../../assets/Icon/php.png";
 
 // Work
 import Work1 from "../../assets/Mobile App/app 1.jpg";
-import Work10 from "../../assets/Mobile App/app 10.png";
 import Work2 from "../../assets/Mobile App/app 2.jpg";
 import Work3 from "../../assets/Mobile App/app 3.jpg";
 import Work4 from "../../assets/Mobile App/app 4.jpg";
@@ -40,6 +41,11 @@ import Work6 from "../../assets/Mobile App/app 6.jpg";
 import Work7 from "../../assets/Mobile App/app 7.jpg";
 import Work8 from "../../assets/Mobile App/app 8.jpg";
 import Work9 from "../../assets/Mobile App/app 9.jpg";
+import Work10 from "../../assets/Mobile App/app 10.png";
+import Work11 from "../../assets/Mobile App/app 11.png";
+import Work12 from "../../assets/Mobile App/app 12.png";
+import Work13 from "../../assets/Mobile App/app 13.png";
+import Work14 from "../../assets/Mobile App/app 14.png";
 
 // design
 import desain1 from "../../assets/Design/Genksi App.jpg";
@@ -130,6 +136,38 @@ export const projectsData = [
   },
   {
     id: 11,
+    image: Work11,
+    title: "Aplikasi SimPondok",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/b_4lcftfp4i4lper4itf73vuknxa",
+    icon: [react, javascript],
+  },
+  {
+    id: 12,
+    image: Work12,
+    title: "Aplikasi Dashboard Kebab Abesensi Abi Mandira",
+    category: "Mobile App",
+    link: "https://simpondok.com/auth/login",
+    icon: [php, laravel],
+  },
+  {
+    id: 13,
+    image: Work13,
+    title: "Aplikasi Absensi Kebab Abesensi Abi Mandira",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/b_f5qoimxmoa5o4skfk7eo53htfe",
+    icon: [dart, flutter],
+  },
+  {
+    id: 14,
+    image: Work14,
+    title: "Aplikasi Pembelajaran Layout Flutter",
+    category: "Mobile App",
+    link: "https://appetize.io/embed/b_ffrszbnpnnlb7rnau3ftslzxp4",
+    icon: [dart, flutter],
+  },
+  {
+    id: 15,
     image: certificate1,
     title: "Membuat Aplikasi Flutter untuk Pemula",
     category: "Certificate",
@@ -137,7 +175,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 12,
+    id: 16,
     image: certificate2,
     title: "Belajar Prinsip Pemrograman Solid",
     category: "Certificate",
@@ -145,7 +183,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 13,
+    id: 17,
     image: certificate3,
     title: "Memulai Pemrograman dengan Dart",
     category: "Certificate",
@@ -153,7 +191,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 14,
+    id: 18,
     image: certificate4,
     title:
       "Networking dan Cybersecurity dengan tema TechNetworkers Unite Reinforcing Security and Connectivity yang diselenggarakan oleh National Networking Competition 2.0",
@@ -162,7 +200,7 @@ export const projectsData = [
     icon: [ugm, biznet, idnetworkers],
   },
   {
-    id: 15,
+    id: 19,
     image: certificate5,
     title: "Pemrograman Dart Dasar",
     category: "Certificate",
@@ -170,7 +208,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 16,
+    id: 20,
     image: certificate6,
     title: "Start Your Career with Mikrotik",
     category: "Certificate",
@@ -178,7 +216,7 @@ export const projectsData = [
     icon: [idnetworkers],
   },
   {
-    id: 17,
+    id: 21,
     image: certificate7,
     title: "Successfull Carrer Planning for 2 roles",
     category: "Certificate",
@@ -186,7 +224,7 @@ export const projectsData = [
     icon: [smartpath],
   },
   {
-    id: 18,
+    id: 22,
     image: certificate8,
     title:
       "Tech Talk #1 - The Future of Indonesia's Tech Industries How to Develop Advanced Tech Companies",
@@ -195,7 +233,7 @@ export const projectsData = [
     icon: [dicoding],
   },
   {
-    id: 19,
+    id: 23,
     image: desain1,
     title: "Genksi Application",
     category: "Design",
@@ -203,7 +241,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 20,
+    id: 24,
     image: desain2,
     title: "Perizinan Santri Application",
     category: "Design",
@@ -211,7 +249,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 0,
+    id: 25,
     image: desain3,
     title: "Pulsa Application",
     category: "Design",
@@ -219,7 +257,7 @@ export const projectsData = [
     icon: [figma],
   },
   {
-    id: 22,
+    id: 26,
     image: desain4,
     title: "Muslim Indonesia Application",
     category: "Design",

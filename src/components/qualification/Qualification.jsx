@@ -64,6 +64,25 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Masjid IsmuhuYahya</h3>
+                <span className="qualification__subtitle">
+                  Pontianak - Kalimantan Barat
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024 - present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">AmalSholeh.com</h3>
                 <span className="qualification__subtitle">
